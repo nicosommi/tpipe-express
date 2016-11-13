@@ -73,7 +73,7 @@ module.exports =
     'build-dev': 'rimraf dist && babel source --out-dir dist --source-maps inline',
     'test': 'nyc --reporter=text-summary mocha \'spec/**/*.spec.js\'',
     'watch': 'watch \'nyc --reporter=text-summary mocha "spec/**/*.spec.js"\' source spec',
-    'coverage': 'npm test && nyc report | coveralls'
+    'coverage': 'nyc mocha \'spec/**/*.spec.js\''
   },
   'author': 'nicosommi',
   'license': 'MIT',
