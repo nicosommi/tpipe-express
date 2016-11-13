@@ -2,7 +2,7 @@
   "name": "tpipe-express",
   "version": "0.0.1",
   "description": "tpipe common mappings for express",
-  "main": "./dist/lib/lib.js",
+  "main": "./dist/lib/mappers.js",
   "nyc": {
     "lines": 60,
     "statements": 60,

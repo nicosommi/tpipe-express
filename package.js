@@ -2,7 +2,7 @@
 /* name, /'name': 'tpipe-express'/g, 'name': 'tpipe-express'
 version, /'version': '\bv?(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?\b'/ig, 'version': '0.0.1'
 description, /'description': 'a\ gdd\ utility'/g, 'description': 'piper'
-main, /'main': '[a-zA-Z\.\/]+'/ig, 'main': './dist/lib/lib.js'
+main, /'main': '[a-zA-Z\.\/]+'/ig, 'main': './dist/lib/mappers.js'
 license, /MIT/g, MIT */
 /* endph */
 /* ph ignoringStamps */
@@ -14,7 +14,7 @@ module.exports =
   'name': 'tpipe-express',
   'version': '0.0.1',
   'description': 'tpipe common mappings for express',
-  'main': './dist/lib/lib.js',
+  'main': './dist/lib/mappers.js',
   'nyc': {
     'lines': 60,
     'statements': 60,
