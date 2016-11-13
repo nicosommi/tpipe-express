@@ -67,12 +67,12 @@ module.exports =
     /* endstamp */
     /* stamp service_scripts */
     /* endstamp */
-    'refresh': 'gddify refresh',
+    'pretest': 'gddify refresh',
+    'test': 'nyc --reporter=text-summary mocha \'spec/**/*.spec.js\'',
     'posttest': 'npm run build-dev',
+    'watch': 'watch \'nyc --reporter=text-summary mocha "spec/**/*.spec.js"\' source spec',
     'build': 'rimraf dist && babel source --out-dir dist',
     'build-dev': 'rimraf dist && babel source --out-dir dist --source-maps inline',
-    'test': 'nyc --reporter=text-summary mocha \'spec/**/*.spec.js\'',
-    'watch': 'watch \'nyc --reporter=text-summary mocha "spec/**/*.spec.js"\' source spec',
     'coverage': 'nyc mocha \'spec/**/*.spec.js\''
   },
   'author': 'nicosommi',
