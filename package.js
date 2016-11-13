@@ -1,6 +1,6 @@
 /* ph replacements */
 /* name, /'name': 'tpipe-express'/g, 'name': 'tpipe-express'
-version, /'version': '\bv?(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?\b'/ig, 'version': '0.0.6'
+version, /'version': '\bv?(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?\b'/ig, 'version': '0.0.1'
 description, /'description': 'a\ gdd\ utility'/g, 'description': 'piper'
 main, /'main': '[a-zA-Z\.\/]+'/ig, 'main': './dist/lib/lib.js'
 license, /MIT/g, MIT */
@@ -12,9 +12,37 @@ license, /MIT/g, MIT */
 module.exports =
 {
   'name': 'tpipe-express',
-  'version': '0.0.6',
+  'version': '0.0.1',
   'description': 'tpipe common mappings for express',
   'main': './dist/lib/lib.js',
+  'nyc': {
+    'lines': 60,
+    'statements': 60,
+    'functions': 60,
+    'branches': 60,
+    'sourceType': 'module',
+    'include': [
+      'source/**/*.js'
+    ],
+    'exclude': [
+      'spec/**/*.spec.js'
+    ],
+    'reporter': [
+      'lcov',
+      'text'
+    ],
+    'require': [
+      'babel-register',
+      './spec/mocha.setup.js'
+    ],
+    'extension': [
+      '.js'
+    ],
+    'cache': true,
+    'all': true,
+    'check-coverage': true,
+    'report-dir': './.coverage'
+  },
   'standard': {
     'globals': [
       'describe',
@@ -39,13 +67,13 @@ module.exports =
     /* endstamp */
     /* stamp service_scripts */
     /* endstamp */
-    'gddify': 'gddify',
-    'test': 'gulp test',
-    'build': 'gulp build',
-    'coverage': 'gulp test-coverage',
-    'watch': 'gulp test-watch',
-    'gulp': 'gulp',
-    'posttest': 'gulp build'
+    'refresh': 'gddify refresh',
+    'posttest': 'npm run build-dev',
+    'build': 'rimraf dist && babel source --out-dir dist',
+    'build-dev': 'rimraf dist && babel source --out-dir dist --source-maps inline',
+    'test': 'nyc --reporter=text-summary mocha \'spec/**/*.spec.js\'',
+    'watch': 'watch \'nyc --reporter=text-summary mocha "spec/**/*.spec.js"\' source spec',
+    'coverage': 'npm test && nyc report | coveralls'
   },
   'author': 'nicosommi',
   'license': 'MIT',
@@ -81,23 +109,19 @@ module.exports =
     /* endstamp */
     /* stamp service_devDependencies */
     /* endstamp */
+    'nyc': '^8.4.0',
+    'rimraf': '^2.5.2',
     'sinon': '^1.17.3',
     'should': '^8.2.2',
     'mocha': '^2.2.5',
     'babel': '^6.5.2',
+    'babel-cli': '^6.18.0',
     'babel-core': '^6.6.4',
     'babel-plugin-rewire': '^1.0.0-rc-1',
     'babel-preset-es2015': '^6.6.0',
     'babel-preset-stage-3': '^6.5.0',
-    'gulp': '^3.9.1',
-    'gulp-babel': '^6.1.2',
-    'gulp-babel-istanbul': '^1.0.0',
-    'gulp-istanbul': '^0.10.3',
-    'gulp-mocha': '^2.1.3',
-    'gulp-util': '^3.0.6',
-    'run-sequence': '^1.1.5',
-    'del': '^2.2.0',
-    'coveralls': '^2.11.2'
+    'coveralls': '^2.11.2',
+    'watch': '^1.0.1'
   },
   /* ph repository */
   'repository': {

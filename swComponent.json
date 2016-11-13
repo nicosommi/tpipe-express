@@ -4,16 +4,10 @@
   "options": {
     "sources": [
       {
-        "path": "../gddify"
-      },
-      {
-        "path": "../tpipe"
-      },
-      {
         "path": "./"
       }
     ],
-    "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express/./",
+    "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express/./",
     "cleanPath": ".gdd-clean"
   },
   "swBlocks": [
@@ -36,16 +30,10 @@
         ],
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": [
@@ -55,16 +43,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean",
             "jsonification": [
               {
@@ -92,16 +74,10 @@
             ],
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean",
             "copy": [
               {
@@ -114,177 +90,16 @@
       ]
     },
     {
-      "name": "gulp",
-      "type": "buildingTool",
-      "version": "0.0.12",
-      "options": {
-        "sources": [
-          {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
-            "path": "./"
-          }
-        ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-        "cleanPath": ".gdd-clean"
-      },
-      "sourceCodeFiles": [
-        {
-          "name": "gulpfile.babel.js",
-          "path": "gulpfile.babel.js",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        },
-        {
-          "name": "tasks/clean.js",
-          "path": "tasks/clean.js",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        },
-        {
-          "name": "tasks/suppress-errors.js",
-          "path": "tasks/suppress-errors.js",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        },
-        {
-          "name": "tasks/test.js",
-          "path": "tasks/test.js",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        },
-        {
-          "name": ".babelrc",
-          "path": ".babelrc",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        },
-        {
-          "name": "tasks/build.js",
-          "path": "tasks/build.js",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        },
-        {
-          "name": ".eslintrc",
-          "path": ".eslintrc",
-          "options": {
-            "sources": [
-              {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
-                "path": "./"
-              }
-            ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
-            "cleanPath": ".gdd-clean"
-          }
-        }
-      ]
-    },
-    {
       "name": "mit",
       "type": "license",
       "version": "0.0.1",
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": [
@@ -294,16 +109,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         }
@@ -316,16 +125,10 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": [
@@ -335,16 +138,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         },
@@ -354,16 +151,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         },
@@ -373,16 +164,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         },
@@ -392,16 +177,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         },
@@ -411,16 +190,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         },
@@ -430,16 +203,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         }
@@ -452,16 +219,10 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": [
@@ -471,16 +232,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         }
@@ -493,16 +248,10 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": [
@@ -512,16 +261,10 @@
           "options": {
             "sources": [
               {
-                "path": "../gddify"
-              },
-              {
-                "path": "../tpipe"
-              },
-              {
                 "path": "./"
               }
             ],
-            "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
             "cleanPath": ".gdd-clean"
           }
         }
@@ -534,16 +277,10 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": []
@@ -555,16 +292,10 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": []
@@ -576,16 +307,10 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
-          {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
       "sourceCodeFiles": []
@@ -597,19 +322,84 @@
       "options": {
         "sources": [
           {
-            "path": "../gddify"
-          },
-          {
-            "path": "../tpipe"
-          },
+            "path": "./"
+          }
+        ],
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
+        "cleanPath": ".gdd-clean"
+      },
+      "sourceCodeFiles": []
+    },
+    {
+      "name": "test",
+      "type": "test",
+      "version": "0.0.1",
+      "options": {
+        "sources": [
           {
             "path": "./"
           }
         ],
-        "basePath": "/Users/nicosommi/workspace/nicosommi/tpipe-express",
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
         "cleanPath": ".gdd-clean"
       },
-      "sourceCodeFiles": []
+      "sourceCodeFiles": [
+        {
+          "name": "spec/mocha.setup.js",
+          "path": "spec/mocha.setup.js",
+          "options": {
+            "sources": [
+              {
+                "path": "./"
+              }
+            ],
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
+            "cleanPath": ".gdd-clean"
+          }
+        }
+      ]
+    },
+    {
+      "name": "express-mappers",
+      "type": "tpipe-mapper",
+      "version": "0.0.0",
+      "options": {
+        "sources": [
+          {
+            "path": "./"
+          }
+        ],
+        "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
+        "cleanPath": ".gdd-clean"
+      },
+      "sourceCodeFiles": [
+        {
+          "name": "source/lib/mappers.js",
+          "path": "source/lib/mappers.js",
+          "options": {
+            "sources": [
+              {
+                "path": "./"
+              }
+            ],
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
+            "cleanPath": ".gdd-clean"
+          }
+        },
+        {
+          "name": "spec/mappers.spec.js",
+          "path": "spec/mappers.spec.js",
+          "options": {
+            "sources": [
+              {
+                "path": "./"
+              }
+            ],
+            "basePath": "/home/nicosommi/workspace/my-repos/tpipe-express",
+            "cleanPath": ".gdd-clean"
+          }
+        }
+      ]
     }
   ]
 }

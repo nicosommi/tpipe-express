@@ -29,3 +29,5 @@ node_modules
 lcov.info
 .coverage
 lib-cov
+coverage
+.nyc_output
