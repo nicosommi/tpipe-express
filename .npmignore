@@ -4,6 +4,7 @@ logs
 /dna
 *.log.*
 
+.nyc_output
 
 # nothing yet but it will be
 
@@ -29,5 +30,3 @@ node_modules
 lcov.info
 .coverage
 lib-cov
-coverage
-.nyc_output
