@@ -37,7 +37,8 @@ packageObject = {
     ...packageObject.babel
   },
   name: 'tpipe-express',
-  version: '0.0.2',
+  version: '0.0.3',
+  main: './dist/lib/mappers.js',
   description: 'Express pipe set for tpipe',
   repository: {
     type: 'git',
