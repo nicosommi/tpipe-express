@@ -15,20 +15,20 @@ export function requestInputMapping (input, req) {
     req: req // FIXME: remove this when tpipe is mature
   }
 
-  input.body = req.body
+  input[this.options.payloadKey] = req.body
   return Promise.resolve(input)
 }
 
 export function sendResponseFinallyMapping (output, input, req, res, next) {
   logger.log('tpipe-express finally mapping begin', {input, output})
-  res.status(output.parameters.status || 200).send(output.body)
+  res.status(output[this.options.metaKey].status || 200).send(output[this.options.payloadKey])
   return Promise.resolve(output)
 }
 
 export function statusErrorMapping (errorOutput) {
   logger.log('tpipe-express error mapping begin')
-  if (!errorOutput.parameters.status) {
-    errorOutput.parameters.status = 500
+  if (!errorOutput[this.options.metaKey].status) {
+    errorOutput[this.options.metaKey].status = 500
   }
   return Promise.resolve(errorOutput)
 }
